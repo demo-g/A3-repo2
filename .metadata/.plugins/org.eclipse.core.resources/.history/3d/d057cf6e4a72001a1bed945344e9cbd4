@@ -1,0 +1,15 @@
+package org.cap.model;
+import java.util.List;
+public class First {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static void display(List<Integer> lst)
+	{
+		long count=lst.stream().count();
+		
+	}
+
+}
